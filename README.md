@@ -3,12 +3,8 @@ PluginCmdJ4C
 
 Plugin Privée  J4C
 $mkdir ~ / Bonjour mondiale 
-# Crée un répertoire pour votre projet appelé «Bonjour-monde" dans votre répertoire utilisateur
+git remote add origine https://github.com/Arill3uR/Bonjour-World.git 
+# Crée une "origine" distant nommé pointant vers votre dépôt GitHub
 
-cd ~ / Bonjour mondiale 
-# Change le répertoire de travail courant à votre répertoire nouvellement créé
-
-git initialisation 
-# Définit les fichiers nécessaires Git 
-# initialisées vide dépôt Git dans / Users / vous / Hello-World/.git /
-
+git push origin master 
+# Envoie vos commits dans la branche "master" à GitHub
